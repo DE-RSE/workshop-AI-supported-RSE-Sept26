@@ -127,25 +127,41 @@ The participant feedback was overall very positive, however only 15 responses we
 
 ## Day 1: Sessions A1, A2, B1, B2
 
-On day one, each six of the respondents participated in sessions A1 and B4, and three in session B3. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences.
+On day one, each six of the respondents participated in sessions A1 and B2, and three in session B1. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences.
 
 ![img](../notebooks/feedback_who_day1.png)
 Caption: Feedback form respondents background.
 
-The overall feedback over these three sessions was predominantly positive, with the participants agreeing that learning goals were clear, were well prepared and appropriate to the topic. The only slightly more negative rating is obtained for exercises achievable in the given amount of time. This was already apparent to most contributors from the beginning, and the materials were designed such that participants can complete the exercises later in their own time - solutions were provided together with the exercises. Nevertheless, this is an aspect that cannot be overlooked.
+The overall feedback over these three sessions was predominantly positive, with the respondents agreeing that learning goals were clear, were well prepared and appropriate to the topic. The only slightly more negative rating is obtained for exercises achievable in the given amount of time. This was already apparent to most contributors from the beginning, and the materials were designed such that respondents can complete the exercises later in their own time - solutions were provided together with the exercises. Nevertheless, this is an aspect that cannot be overlooked.
 
 ![img](../notebooks/feedback_day1_likert.png)
 Caption: Overall feedback on the sessions and materials of the 15 respondents.
 
-Additional overall feedback was collected, asking for overall satisfaction with the session (very positive), almost all participants recommending the course (except 1), and a good balance of theoretical and practical content. Most participants have not used the tools or concepts before the session, and were confident that they would continue to use them. 
+Additional overall feedback was collected, asking for overall satisfaction with the session (very positive), almost all respondents recommending the course (except 1), and a good balance of theoretical and practical content. Most respondents have not used the tools or concepts before the session, and were confident that they would continue to use them. 
 
 ![img](../notebooks/feedback_day1_questions.png)
 Caption: Additional feedback questions for day 1.
 
-The survey respondents could also provide a free-text feedback. This mostly resulted in comments that there was not enough time (3) and that also social aspects should have been included (1). Participants particularly liked the sample code and instructions, and that there was also space for people who are LLM skeptical or cautious. Participants commented that their goals in participating in the sessions were achieved.
+The survey respondents could also provide a free-text feedback. This mostly resulted in comments that there was not enough time (3) and that also social aspects should have been included (1). Respondents particularly liked the sample code and instructions, and that there was also space for people who are LLM skeptical or cautious. Respondents commented that their goals in participating in the sessions were achieved.
 
 ## Day 2: Sessions A3, A4, B3, B4
 
+On day two, 11 of the respondents participated in session B4, three in A3,  and each one in sessions A4 and B3. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences, and other which was not further specified.
+
+![img](../notebooks/feedback_who_day2.png)
+Caption: Feedback form respondents background.
+
+The overall feedback over these sessions was again  predominantly very positive. Again the only negative rating is obtained for exercises achievable in the given amount of time, and this time also for an alloted reasonable amount of time and sufficient guidance from the lecturers.
+
+![img](../notebooks/feedback_day2_likert.png)
+Caption: Overall feedback on the sessions and materials of the 18 respondents.
+
+The additional overall feedback for overall satisfaction was again very positive, almost all respondents recommending the course (except 2), and a good balance of theoretical and practical content. Many respondents have not used the tools or concepts before the session, and were confident that they would continue to use them (13). 
+
+![img](../notebooks/feedback_day2_questions.png)
+Caption: Additional feedback questions for day 1.
+
+In the free-text feedback, respondents noted that some more guidance with the materials would have helped, and more time with walkthroughs presenting the solutions. Respondents liked the teaching material and resources that were provided.
 
 # Core discussions and outcomes
 [notes for each session]
@@ -157,7 +173,7 @@ Repeat the event with updated state-of-the-art, continue with community engageme
 # Metadata
 
 AI use in the preparation of the manuscript:
-AI was used for proofreading and discussing concepts.
+AI was used for proofreading and discussing concepts, and for the evaluation of the demographic and feedback data.
 
 Competing interests
 
