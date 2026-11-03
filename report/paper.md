@@ -123,7 +123,29 @@ Caption: Of the 93 participants, 11 indicated more than one preferred session, s
 The actual session participant numbers were not recorded during the event. Overall, the interest in the advanced topics was higher than in the beginner topics, also reflecting that there is a slight bias of the participants' experience level towards a higher level.
 
 # Participant feedback
-The participant feedback was overall very positive, with [..]
+The participant feedback was overall very positive, however only 15 responses were obtained for day 1 and responses for day 2.
+
+## Day 1: Sessions A1, A2, B1, B2
+
+On day one, each six of the respondents participated in sessions A1 and B4, and three in session B3. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences.
+
+![img](../notebooks/feedback_who_day1.png)
+Caption: Feedback form respondents background.
+
+The overall feedback over these three sessions was predominantly positive, with the participants agreeing that learning goals were clear, were well prepared and appropriate to the topic. The only slightly more negative rating is obtained for exercises achievable in the given amount of time. This was already apparent to most contributors from the beginning, and the materials were designed such that participants can complete the exercises later in their own time - solutions were provided together with the exercises. Nevertheless, this is an aspect that cannot be overlooked.
+
+![img](../notebooks/feedback_day1_likert.png)
+Caption: Overall feedback on the sessions and materials of the 15 respondents.
+
+Additional overall feedback was collected, asking for overall satisfaction with the session (very positive), almost all participants recommending the course (except 1), and a good balance of theoretical and practical content. Most participants have not used the tools or concepts before the session, and were confident that they would continue to use them. 
+
+![img](../notebooks/feedback_day1_questions.png)
+Caption: Additional feedback questions for day 1.
+
+The survey respondents could also provide a free-text feedback. This mostly resulted in comments that there was not enough time (3) and that also social aspects should have been included (1). Participants particularly liked the sample code and instructions, and that there was also space for people who are LLM skeptical or cautious. Participants commented that their goals in participating in the sessions were achieved.
+
+## Day 2: Sessions A3, A4, B3, B4
+
 
 # Core discussions and outcomes
 [notes for each session]
