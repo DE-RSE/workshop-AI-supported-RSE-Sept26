@@ -34,11 +34,28 @@ Due to these multifaceted changes, and the still rapid development of the field,
 
 The workshop objectives were to (1) get into a communication in the community about these topics, (2) evaluate the current state-of-the-art and up- and downsides, and (3) work towards a common understanding of the capabilities and limitations of these tools.
 
-The participant demographics where mostly RSEngs from German higher education and research institutions, as well as...
+The participant demographics where mostly RSEngs from German higher education and research institutions (88), as well as two from the USA, two from the Netherlands, and one from Czech Republic. The participants from Germany came from all over the country, with a slight dominance of Göttingen and Jülich.
+
+![img](../notebooks/participants_map.png)
+Caption: Distribution of participants from Germany over the country.
+
+Upon registration, participants were also asked to note their experience level, with the options "None", "Beginner", "Advanced", "Expert". 
+
+| None | Beginner | Advanced | Expert |
+| -- | -- | -- | -- |
+| 12 | 37 | 39 | 5|
+
+The experience level shows a fairly flat distribution, with an almost equal number of "Beginner" and "Advanced" level given.
+
+Before the workshop, a survey was conducted with participants asking them to indicate the tools that they use for AI coding. The results are given in the figure below. Of the 52 respondents, roughly 2/3 already had a subscription. The respondents that have a subscription mostly use Claude Code, clearly dominating the responses with 20 users out of 36 responses. One user said that they did not have a subscription but stated they would use Codex, which is not available for free. Two respondents who had no subscription said they used OpenCode, which is available for free.
+
+![img](../notebooks/coding_tools.png)
+Caption: Use of coding tools among a subgroup of participants (52 answers in total). Most respondents already had access to a tool, with a preference for Claude Code.
+
 
 # Program
 
-The program was structured around tangible and quantitative topics, such as practical sessions how to use these tools, together with the essential legal, ethical and security aspects. The incentive was to target a practical route, and discuss experiences with this, instead of focusing on derived aspects such as digital sovereignity, mental load and how RSE work changes. Therefore, the program was organized around five keynote sessions, representing the different main aspects of the field: Ethical, legal and security aspects, and usability aspects with their impact on research. The practical sessions were grouped in two tracks, **A** for beginners in agentic coding and **B** for the more advanced topics. In the **A** sessions, the basics how to use coding agents and different workflows were presented, where in **B**, software verification, validation, and agent customization were shown with the help of hands-on examples. All materials are availabe online at https://events.hifis.net/event/3249/timetable/#20260922 from the timetable. [Should this be moved to zenodo, how long will it persist?]. The keynote talks were also recorded and are available at []. Below listed are the keynote talks and hands-on sessions together with their abstracts and links.
+The program was structured around tangible and quantitative topics, such as practical sessions how to use these tools, together with the essential legal, ethical and security aspects. The incentive was to target a practical route, and discuss experiences with this, instead of focusing on derived aspects such as digital sovereignity, mental load and how RSE work changes. Therefore, the program was organized around five keynote sessions, representing the different main aspects of the field: Ethical, legal and security aspects, and usability aspects with their impact on research. The practical sessions were grouped in two tracks, **A** for beginners in agentic coding and **B** for the more advanced topics. With the experience levels given in the registration, this fit quite well as roughly half rated their level as "Beginner" and the other half as "Advanced". In the **A** sessions, the basics how to use coding agents and different workflows were presented, where in **B**, software verification, validation, and agent customization were shown with the help of hands-on examples. All materials are availabe online at https://events.hifis.net/event/3249/timetable/#20260922 from the timetable. [Should this be moved to zenodo, how long will it persist?]. The keynote talks were also recorded and are available at []. Below listed are the keynote talks and hands-on sessions together with their abstracts and links.
 
 
 ## Keynote talks
@@ -81,6 +98,29 @@ Links:
 In this session, we explore practical experiences with agentic coding in the context of research software development at the TIB - Leibniz Information Centre for Science and Technology. Through real-world examples, we demonstrate how agentic approaches support the full development lifecycle, from rapid prototyping to production-ready feature implementation. Topics include agents, agent instructions, MCPs, skills, etc. We will share our experiences regarding workflows, challenges, and best practices for integrating agentic coding into research-driven software projects. Finally, we will explore how the recent developments in agentic coding have already reshaped our workflows and are likely to do so even more in the future.
 8. **B4 From Code Generation to Control: Engineering Reliable Software with AI** (Edwin Carreno, Maxim Scheremetjew): AI-assisted development increases productivity by accelerating code generation; however, it introduces uncertainty in quality, control, and accountability, particularly as large volumes of generated artifacts exceed human capacity for effective review. Without principled integration, these risks can undermine software reliability. This hands-on session introduces a unified, constraint-driven and verification-oriented workflow for integrating AI across the Software Development Life Cycle, grounded in explicit separation of human-critical and AI-supported activities and in the principle that AI-generated artifacts must be validated against formalized requirements prior to integration. Participants will apply techniques for requirement-driven validation, traceability enforcement, and stage-wise verification, ensuring that human oversight governs critical decisions while AI supports generation. The session delivers a reproducible and systematic framework for leveraging AI while preserving reliability, accountability, and engineering rigor.
 
+
+## Participant interest 
+Upon registration, participants were asked to rate their interest in specific tracks. The results are shown in the tables below.
+
+| Track day 1 | Votes |
+| -- | -- |
+| **B1** Quality Assurance in the Age of AI	| 35 |
+| **B2** MCP, Skills and RAG for different applications	| 27 |
+| **A1** Building Software by Talking to AI -and Making It Run Faster	| 22 | 
+| **A2** Gemini as a Coding Assistant and Debugging Collaborator Using AMERH Framework | 4 |
+| no preference given | 17 |
+Caption: Of the 93 participants, 8 indicated more than one preferred session, so the votes sum to 105 without the abstantions.
+
+| Track day 2 | Votes |
+| -- | -- |
+| **B4** From Code Generation to Control: Engineering Reliable Software with AI | 40 |
+| **B3** Semantic Search using LLMs plus Hands-on agentic coding for research software development | 23 |
+| **A3** AI Declaration Format | 15 |
+| **A4** Vibe Coding: A Useful Science Tool | 8 |
+| no preference given | 19 |
+Caption: Of the 93 participants, 11 indicated more than one preferred session, so the votes sum to 105 without the abstantions.
+
+The actual session participant numbers were not recorded during the event. Overall, the interest in the advanced topics was higher than in the beginner topics, also reflecting that there is a slight bias of the participants' experience level towards a higher level.
 
 # Participant feedback
 The participant feedback was overall very positive, with [..]
