@@ -13,6 +13,10 @@ authors:
     orcid: 0000-0002-7458-3072
     affiliation: "2, 3"
     corresponding: false
+  - name: Kim Tuyen Le
+    orcid: 0000-0003-4075-1979
+    affiliation: "1"
+    corresponding: false
   - name: Other author
     affiliation: 2
 affiliations:
