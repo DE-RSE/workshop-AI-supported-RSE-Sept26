@@ -9,14 +9,24 @@ authors:
     orcid: 0000-0001-7294-4148
     affiliation: "1"
     corresponding: true
+  - name: Maxim Scheremetjew
+    orcid: 0000-0002-7458-3072
+    affiliation: "2, 3"
+    corresponding: false
   - name: Other author
     affiliation: 2
 affiliations:
   - name: Scientific Software Center, Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg
     index: 1
     ror: 038t36y30
-  - name: other affiliation
+  - name: Max Planck Institute of Molecular Cell Biology and Genetics, Pfotenhauerstr. 108, 01307 Dresden
     index: 2
+    ror: 05b8d3w18
+  - name: Center for Systems Biology Dresden, Pfotenhauerstr. 108, 01307 Dresden
+    index: 3
+    ror: 05hrn3e05
+  - name: other affiliation
+    index: 4
 date: 02 November 2026
 bibliography: paper.bib
 ---
