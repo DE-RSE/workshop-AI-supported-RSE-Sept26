@@ -148,7 +148,7 @@ Caption: Of the 93 participants, 11 indicated more than one preferred session, s
 The actual session participant numbers were not recorded during the event. Overall, the interest in the advanced topics was higher than in the beginner topics, also reflecting that there is a slight bias of the participants' experience level towards a higher level.
 
 # Participant feedback
-The participant feedback was overall very positive, however only 15 responses were obtained for day 1 and 11 responses for day 2.
+The participant feedback was overall very positive, however only 15 responses were obtained for day 1 and 18 responses for day 2.
 
 ## Day 1: Sessions A1, A2, B1, B2
 
