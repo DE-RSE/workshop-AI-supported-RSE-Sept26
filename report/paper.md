@@ -199,6 +199,57 @@ Caption: Additional feedback questions for day 1.
 
 In the free-text feedback, respondents noted that some more guidance with the materials would have helped, and more time with walkthroughs presenting the solutions. Respondents liked the teaching material and resources that were provided.
 
+# Practical experiences
+
+## Keynote talks
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+## Hands-on sessions
+
+### Day 1: Sessions A1, A2, B1, B2
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+### Day 2: Sessions A3, A4, B3, B4
+
+#### A3: AI Declaration Format and AI agent skills for Research Software Engineering
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### A4: Vibe Coding: A Useful Science Tool
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### B3: Semantic Search using LLMs
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### B4: From Code Generation to Control: Engineering Reliable Software with AI
+
+> [!WARNING]
+> **TODO:** To be reviewed and completed by co-authors.
+
+> [!WARNING]
+> **TODO:** Citation keys are placeholders, add new citation entries to paper.bib and reference them in the text.
+
+The 90-minute session was attended by approximately 15–20 participants, who engaged actively and raised numerous questions.
+
+Based on the participants' backgrounds and experience levels reported in the pre-workshop survey, we designed two exercises, one for beginners and one for advanced participants; both are publicly available on GitHub \cite{TODO-exercises}.
+
+The session was structured in three parts: a 10-minute introductory presentation, a 75-minute hands-on exercise in which participants applied the concepts presented, and a 5-minute wrap-up. The presentation was well received but took longer than planned (approximately 15–20 minutes), which reduced the time available for the exercise. The exercise was designed to fit within 75 minutes, assuming that participants would set up their development environment and software project before the workshop. Participants were reminded of this requirement by email two weeks in advance, verbally during the workshop kick-off on day 1, on the session pad \cite{gwdg2026b4pad}, and in the exercise instructions, which were also shared in advance.
+
+Nevertheless, most participants had not completed the setup beforehand, which cost them at least 10 minutes. Consequently, most participants did not complete the exercise within the allotted time, as also reflected in the post-workshop survey (see Section TODO). Anticipating this, we provided solutions and explanations for both exercises so that participants could continue working independently after the session. For future workshops, we will provide more detailed setup instructions and allocate time for a guided setup at the beginning of the session.
+
+Although the exercises were designed to be tool-agnostic, some steps, such as project planning, took longer than expected. Response times depend strongly on the chosen model and its reasoning effort. Future exercises should therefore include recommendations on suitable models and effort levels, and their timing should account for these differences.
+
+Costs were not addressed during the session, as GWDG \cite{gwdg} provided participants with free access to Chat-AI \cite{gwdg2026chatai}, a service hosted on the Academic Cloud that offers a selection of models with different capabilities \cite{gwdg2026chataimodels}. Since token budgets in many research groups are limited, future workshops could include guidance on estimating and reducing the costs of AI-assisted development.
+
 # Core discussions and outcomes
 [notes for each session]
 
