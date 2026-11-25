@@ -36,6 +36,17 @@ bibliography: paper.bib
 ---
 Plan to submit to https://riojournal.com/
 
+# Abstract
+
+> [!WARNING]
+> **TODO:** This section is incomplete.
+
+This report summarizes the workshop on AI-supported Research Software Engineering (RSE) organized by the Interest Group 2 (IG2) of the Alliance Focus on Digitality in Science and the German Research Software Engineering Association (de-RSE e.V.). The workshop aimed to facilitate a community-level exchange on the emerging practices, challenges, and implications of AI-assisted programming and agentic coding for RSE. The report provides an overview of the current state of the field, including practical experiences, discussions, and key outcomes from the workshop. It serves as a foundation for future community-driven initiatives, training activities, and the development of best practices for AI-assisted RSE.
+
+# Keywords
+
+Artificial intelligence, AI agents, AI-assisted programming, AI-supported software development, agentic coding, large-language models, report, research software engineering, RSE, deRSE, workshop
+
 # Introduction and context
 With the rise of transformer architectures and more and more capable large-language models (LLMs), the development of models specifically trained for coding has progressed at a rapid rate. The GPT 3.0-based Codex model\cite{chen2021evaluating} was one of the first models trained on publicly available repositories, and was used to power GitHub Copilot which launched in June 2021\cite{friedman2021copilot}. Initially, GitHub Copilot mostly served as an autocompletion tool when it became publicly available in June 2022, being able to predict what should come next in the code or make inline suggestions based on comments or prior code / docstrings. The chat functionality supported the tool later to also serve as a knowledge base and interpreter for the user, starting from the end of December 2023. This ensemble worked quite well for the more common coding languages and libraries, but failed when choosing more recent, or not much used libraries or new releases of libraries (since still the old API was present in the models training data). These limitations for example motivated the development of approaches that supply up-to-date documentation at inference time. One example is Context7 \cite{context7}, a Model Context Protocol (MCP) server that retrieves version-specific library documentation.
 
