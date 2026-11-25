@@ -74,7 +74,7 @@ While the UK workshop focused on developing a strategic community vision and the
 
 The purpose of this report is to document an overview of the current state of the field, including practical experiences; and the discussions, emerging best practices and key outcomes of the workshop. The report seeks to provide a foundation for future community-driven initiatives, training activities, and the development of best practices for AI-assisted Research Software Engineering.
 
-# Program
+# Program structure and methods
 
 The program was structured around tangible and quantitative topics, such as practical sessions how to use these tools, together with the essential legal, ethical and security aspects. The incentive was to target a practical route, and discuss experiences with this, instead of focusing on derived aspects such as digital sovereignity, mental load and how RSE work changes. Therefore, the program was organized around five keynote sessions, representing the different main aspects of the field: Ethical, legal and security aspects, and usability aspects with their impact on research. The practical sessions were grouped in two tracks, **A** for beginners in agentic coding and **B** for the more advanced topics. 
 
@@ -114,7 +114,7 @@ In this session, we explore practical experiences with agentic coding in the con
 8. **[B4] From Code Generation to Control: Engineering Reliable Software with AI** (Edwin Carreno, Maxim Scheremetjew): AI-assisted development increases productivity by accelerating code generation; however, it introduces uncertainty in quality, control, and accountability, particularly as large volumes of generated artifacts exceed human capacity for effective review. Without principled integration, these risks can undermine software reliability. This hands-on session introduces a unified, constraint-driven and verification-oriented workflow for integrating AI across the Software Development Life Cycle, grounded in explicit separation of human-critical and AI-supported activities and in the principle that AI-generated artifacts must be validated against formalized requirements prior to integration. Participants will apply techniques for requirement-driven validation, traceability enforcement, and stage-wise verification, ensuring that human oversight governs critical decisions while AI supports generation. The session delivers a reproducible and systematic framework for leveraging AI while preserving reliability, accountability, and engineering rigor.
 
 
-# Participant demographics
+## Participant demographics
 
 The participant demographics where mostly RSEngs from German higher education and research institutions (88), as well as two from the USA, two from the Netherlands, and one from Czech Republic. The participants from Germany came from all over the country, with a slight dominance of Göttingen and Jülich.
 
@@ -135,7 +135,7 @@ Before the workshop, a survey was conducted with participants asking them to ind
 Caption: Use of coding tools among a subgroup of participants (52 answers in total). Most respondents already had access to a tool, with a preference for Claude Code.
 
 
-## Participant interest 
+### Participant interest 
 Upon registration, participants were asked to rate their interest in specific tracks. The results are shown in the tables below.
 
 | Track day 1 | Votes |
@@ -158,10 +158,10 @@ Caption: Of the 93 participants, 11 indicated more than one preferred session, s
 
 The actual session participant numbers were not recorded during the event. Overall, the interest in the advanced topics was higher than in the beginner topics, also reflecting that there is a slight bias of the participants' experience level towards a higher level.
 
-# Participant feedback
+## Participant feedback
 The participant feedback was overall very positive, however only 15 responses were obtained for day 1 and 18 responses for day 2.
 
-## Day 1: Sessions A1, A2, B1, B2
+### Day 1: Sessions A1, A2, B1, B2
 
 On day one, each six of the respondents participated in sessions A1 and B2, and three in session B1. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences.
 
@@ -180,7 +180,7 @@ Caption: Additional feedback questions for day 1.
 
 The survey respondents could also provide a free-text feedback. This mostly resulted in comments that there was not enough time (3) and that also social aspects should have been included (1). Respondents particularly liked the sample code and instructions, and that there was also space for people who are LLM skeptical or cautious. Respondents commented that their goals in participating in the sessions were achieved.
 
-## Day 2: Sessions A3, A4, B3, B4
+### Day 2: Sessions A3, A4, B3, B4
 
 On day two, 11 of the respondents participated in session B4, three in A3,  and each one in sessions A4 and B3. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences, and other which was not further specified.
 
