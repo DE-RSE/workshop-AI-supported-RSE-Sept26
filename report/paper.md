@@ -36,6 +36,17 @@ bibliography: paper.bib
 ---
 Plan to submit to https://riojournal.com/
 
+# Abstract
+
+> [!WARNING]
+> **TODO:** This section is incomplete.
+
+This report summarizes the workshop on AI-supported Research Software Engineering (RSE) organized by the Interest Group 2 (IG2) of the Alliance Focus on Digitality in Science and the German Research Software Engineering Association (de-RSE e.V.). The workshop aimed to facilitate a community-level exchange on the emerging practices, challenges, and implications of AI-assisted programming and agentic coding for RSE. The report provides an overview of the current state of the field, including practical experiences, discussions, and key outcomes from the workshop. It serves as a foundation for future community-driven initiatives, training activities, and the development of best practices for AI-assisted RSE.
+
+# Keywords
+
+Artificial intelligence, AI agents, AI-assisted programming, AI-supported software development, agentic coding, large-language models, report, research software engineering, RSE, deRSE, workshop
+
 # Introduction and context
 With the rise of transformer architectures and more and more capable large-language models (LLMs), the development of models specifically trained for coding has progressed at a rapid rate. The GPT 3.0-based Codex model\cite{chen2021evaluating} was one of the first models trained on publicly available repositories, and was used to power GitHub Copilot which launched in June 2021\cite{friedman2021copilot}. Initially, GitHub Copilot mostly served as an autocompletion tool when it became publicly available in June 2022, being able to predict what should come next in the code or make inline suggestions based on comments or prior code / docstrings. The chat functionality supported the tool later to also serve as a knowledge base and interpreter for the user, starting from the end of December 2023. This ensemble worked quite well for the more common coding languages and libraries, but failed when choosing more recent, or not much used libraries or new releases of libraries (since still the old API was present in the models training data). These limitations for example motivated the development of approaches that supply up-to-date documentation at inference time. One example is Context7 \cite{context7}, a Model Context Protocol (MCP) server that retrieves version-specific library documentation.
 
@@ -63,7 +74,7 @@ While the UK workshop focused on developing a strategic community vision and the
 
 The purpose of this report is to document an overview of the current state of the field, including practical experiences; and the discussions, emerging best practices and key outcomes of the workshop. The report seeks to provide a foundation for future community-driven initiatives, training activities, and the development of best practices for AI-assisted Research Software Engineering.
 
-# Program
+# Program structure and methods
 
 The program was structured around tangible and quantitative topics, such as practical sessions how to use these tools, together with the essential legal, ethical and security aspects. The incentive was to target a practical route, and discuss experiences with this, instead of focusing on derived aspects such as digital sovereignity, mental load and how RSE work changes. Therefore, the program was organized around five keynote sessions, representing the different main aspects of the field: Ethical, legal and security aspects, and usability aspects with their impact on research. The practical sessions were grouped in two tracks, **A** for beginners in agentic coding and **B** for the more advanced topics. 
 
@@ -103,7 +114,7 @@ In this session, we explore practical experiences with agentic coding in the con
 8. **[B4] From Code Generation to Control: Engineering Reliable Software with AI** (Edwin Carreno, Maxim Scheremetjew): AI-assisted development increases productivity by accelerating code generation; however, it introduces uncertainty in quality, control, and accountability, particularly as large volumes of generated artifacts exceed human capacity for effective review. Without principled integration, these risks can undermine software reliability. This hands-on session introduces a unified, constraint-driven and verification-oriented workflow for integrating AI across the Software Development Life Cycle, grounded in explicit separation of human-critical and AI-supported activities and in the principle that AI-generated artifacts must be validated against formalized requirements prior to integration. Participants will apply techniques for requirement-driven validation, traceability enforcement, and stage-wise verification, ensuring that human oversight governs critical decisions while AI supports generation. The session delivers a reproducible and systematic framework for leveraging AI while preserving reliability, accountability, and engineering rigor.
 
 
-# Participant demographics
+## Participant demographics
 
 The participant demographics where mostly RSEngs from German higher education and research institutions (88), as well as two from the USA, two from the Netherlands, and one from Czech Republic. The participants from Germany came from all over the country, with a slight dominance of Göttingen and Jülich.
 
@@ -124,7 +135,7 @@ Before the workshop, a survey was conducted with participants asking them to ind
 Caption: Use of coding tools among a subgroup of participants (52 answers in total). Most respondents already had access to a tool, with a preference for Claude Code.
 
 
-## Participant interest 
+### Participant interest 
 Upon registration, participants were asked to rate their interest in specific tracks. The results are shown in the tables below.
 
 | Track day 1 | Votes |
@@ -147,10 +158,10 @@ Caption: Of the 93 participants, 11 indicated more than one preferred session, s
 
 The actual session participant numbers were not recorded during the event. Overall, the interest in the advanced topics was higher than in the beginner topics, also reflecting that there is a slight bias of the participants' experience level towards a higher level.
 
-# Participant feedback
+## Participant feedback
 The participant feedback was overall very positive, however only 15 responses were obtained for day 1 and 18 responses for day 2.
 
-## Day 1: Sessions A1, A2, B1, B2
+### Day 1: Sessions A1, A2, B1, B2
 
 On day one, each six of the respondents participated in sessions A1 and B2, and three in session B1. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences.
 
@@ -169,7 +180,7 @@ Caption: Additional feedback questions for day 1.
 
 The survey respondents could also provide a free-text feedback. This mostly resulted in comments that there was not enough time (3) and that also social aspects should have been included (1). Respondents particularly liked the sample code and instructions, and that there was also space for people who are LLM skeptical or cautious. Respondents commented that their goals in participating in the sessions were achieved.
 
-## Day 2: Sessions A3, A4, B3, B4
+### Day 2: Sessions A3, A4, B3, B4
 
 On day two, 11 of the respondents participated in session B4, three in A3,  and each one in sessions A4 and B3. Mostly these were staff scientists or before their doctorate, with a background in computer science of natural sciences, and other which was not further specified.
 
@@ -187,6 +198,57 @@ The additional overall feedback for overall satisfaction was again very positive
 Caption: Additional feedback questions for day 1.
 
 In the free-text feedback, respondents noted that some more guidance with the materials would have helped, and more time with walkthroughs presenting the solutions. Respondents liked the teaching material and resources that were provided.
+
+# Practical experiences
+
+## Keynote talks
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+## Hands-on sessions
+
+### Day 1: Sessions A1, A2, B1, B2
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+### Day 2: Sessions A3, A4, B3, B4
+
+#### A3: AI Declaration Format and AI agent skills for Research Software Engineering
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### A4: Vibe Coding: A Useful Science Tool
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### B3: Semantic Search using LLMs
+
+> [!WARNING]
+> **TODO:** This section needs to be written.
+
+#### B4: From Code Generation to Control: Engineering Reliable Software with AI
+
+> [!WARNING]
+> **TODO:** To be reviewed and completed by co-authors.
+
+> [!WARNING]
+> **TODO:** Citation keys are placeholders, add new citation entries to paper.bib and reference them in the text.
+
+The 90-minute session was attended by approximately 15–20 participants, who engaged actively and raised numerous questions.
+
+Based on the participants' backgrounds and experience levels reported in the pre-workshop survey, we designed two exercises, one for beginners and one for advanced participants; both are publicly available on GitHub \cite{TODO-exercises}.
+
+The session was structured in three parts: a 10-minute introductory presentation, a 75-minute hands-on exercise in which participants applied the concepts presented, and a 5-minute wrap-up. The presentation was well received but took longer than planned (approximately 15–20 minutes), which reduced the time available for the exercise. The exercise was designed to fit within 75 minutes, assuming that participants would set up their development environment and software project before the workshop. Participants were reminded of this requirement by email two weeks in advance, verbally during the workshop kick-off on day 1, on the session pad \cite{gwdg2026b4pad}, and in the exercise instructions, which were also shared in advance.
+
+Nevertheless, most participants had not completed the setup beforehand, which cost them at least 10 minutes. Consequently, most participants did not complete the exercise within the allotted time, as also reflected in the post-workshop survey (see Section TODO). Anticipating this, we provided solutions and explanations for both exercises so that participants could continue working independently after the session. For future workshops, we will provide more detailed setup instructions and allocate time for a guided setup at the beginning of the session.
+
+Although the exercises were designed to be tool-agnostic, some steps, such as project planning, took longer than expected. Response times depend strongly on the chosen model and its reasoning effort. Future exercises should therefore include recommendations on suitable models and effort levels, and their timing should account for these differences.
+
+Costs were not addressed during the session, as GWDG \cite{gwdg} provided participants with free access to Chat-AI \cite{gwdg2026chatai}, a service hosted on the Academic Cloud that offers a selection of models with different capabilities \cite{gwdg2026chataimodels}. Since token budgets in many research groups are limited, future workshops could include guidance on estimating and reducing the costs of AI-assisted development.
 
 # Core discussions and outcomes
 [notes for each session]
